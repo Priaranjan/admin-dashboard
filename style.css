@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.sidebar{
+    background-color: #1992d4;
+    color: white;
+}
+
+svg{
+    height: 20px;
+    width: 20px;
+}
+.sidebar>div>svg{
+    fill: white;
+}
+
+input{
+    border: none;
+    background-color: #e2e8f0;
+    border-radius: 12px;
+    width: 300px;
+    height: 24px;
+}
+
+button{
+    background-color: #1992d4;
+    width: 80px;
+    height: 28px;
+    border: none;
+    border-radius: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+p{
+    font-weight: normal;
+}
+
+.main-content{
+    background-color: #e2e8f0;
+    padding: 20px;
+}
+
+.card,.announce,.trend{
+    background-color: #fff;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 12px;
+}
+.projects>div>div{
+    background-color: #e2e8f0;
+}
+.card{
+    margin: 10px;
+}
